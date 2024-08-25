@@ -1,3 +1,6 @@
 *.css
 *.scss
 *.svg
+next.config.mjs
+./node_modules/*
+/node_modules
