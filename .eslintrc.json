@@ -16,7 +16,8 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": ["./tsconfig.json", "./tsconfig.node.json"],
+    "tsconfigRootDir": "__dirname"
   },
   "plugins": ["react", "prettier", "react-hooks", "@typescript-eslint"],
   "rules": {
